@@ -1,0 +1,86 @@
+{
+  "cards": [
+    {
+      "id": "201939",
+      "avatarUrl": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201939.png",
+      "playerName": "Stephen Curry",
+      "points": "27.3",
+      "rebounds": "5.3",
+      "assists": "5.2"
+    },
+    {
+      "id": "2544",
+      "avatarUrl": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/2544.png",
+      "playerName": "Lebron James",
+      "points": 27.4,
+      "rebounds": 8.5,
+      "assists": 8.3
+    },
+    {
+      "id": "201935",
+      "avatarUrl": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201935.png",
+      "playerName": "James Harden",
+      "points": 36.1,
+      "rebounds": 6.6,
+      "assists": 7.5
+    },
+    {
+      "avatarUrl": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203110.png",
+      "playerName": "Draymon Green",
+      "points": "7.4",
+      "rebounds": "7.3",
+      "assists": "6.9",
+      "id": "-i9_lf6"
+    },
+    {
+      "avatar": "",
+      "playerName": "Kawhi Leonard",
+      "points": "26.6",
+      "rebounds": "7.3",
+      "assists": "3.3",
+      "avatarUrl": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202695.png",
+      "id": "weou-bp"
+    },
+    {
+      "avatar": "",
+      "playerName": "Ricky Rubio",
+      "points": "12.7",
+      "rebounds": "3.6",
+      "assists": "6.1",
+      "avatarUrl": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201937.png",
+      "id": "uEoxSp4"
+    },
+    {
+      "avatarUrl": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201565.png",
+      "playerName": "Derrick Rose",
+      "points": "18.0",
+      "rebounds": "2.7",
+      "assists": "4.3",
+      "id": "2zaQ9KB"
+    },
+    {
+      "avatarUrl": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/2200.png",
+      "playerName": "Pau Gasol",
+      "points": "3.9",
+      "rebounds": "4.6",
+      "assists": "1.7",
+      "id": "LvdJ8lH"
+    },
+    {
+      "avatarUrl": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/1610612748/2018/260x190/201583.png",
+      "playerName": "Anderson Ryan",
+      "points": "12.4",
+      "rebounds": "5.3",
+      "assists": "0.9",
+      "id": "HNnfTFE"
+    },
+    {
+      "avatarUrl": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201142.png",
+      "playerName": "Kevin Durant",
+      "points": "26.0",
+      "rebounds": "6.4",
+      "assists": "5.9",
+      "id": "Y8YVZxP"
+    }
+  ]
+}

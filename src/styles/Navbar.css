@@ -1,0 +1,11 @@
+.Navbar_Container{
+    background: #233D8A;
+    height: 80px; 
+    margin-bottom: 40px;
+}
+
+.Navbar_Logo{
+    width: 100px;
+    height: 80px;
+    margin-left: 40px;
+}
