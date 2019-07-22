@@ -62,7 +62,7 @@ class CardNew extends React.Component{
                         avatar={this.state.form.avatarUrl} />
                     </div>
                     <div className="col-6">
-                        <CardForm onChange={this.handleChange} onSubmit={this.handleSubmit} formValues={this.state.form} />
+                        <CardForm onChange={this.handleChange} onSubmit={this.handleSubmit} formValues={this.state.form} error={this.state.error} />
                     </div>
                 </div>
             </div>

@@ -2,9 +2,9 @@ import React from 'react';
 
 class CardForm extends React.Component{
 
-    // state = {};
+    /*state = {};
 
-    /*handleChange = e =>{
+    handleChange = e =>{
         console.log({
             name: e.target.name,
             value: e.target.value
@@ -12,13 +12,13 @@ class CardForm extends React.Component{
         this.setState({
             [e.target.name]: e.target.value, 
         })
-    }*/
+    }
 
     handleClick = e =>{
         console.log('Button was clicked');
     }
 
-    /*handleSubmit = e =>{
+    handleSubmit = e =>{
         e.preventDefault();
         console.log('Form was submitted');
         console.log(this.state);
@@ -52,6 +52,7 @@ class CardForm extends React.Component{
                 </div>
                 <button onClick={this.handleClick} type="submit" className="btn btn-primary">Save</button>
 
+                {this.props.error && <p className="text-danger">{this.props.error.message}</p>}
             </form>
         );
     }

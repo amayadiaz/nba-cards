@@ -31,7 +31,8 @@ class Cards extends React.Component{
 
         try{
 
-            const data = await api.cards.list(); 
+            let data = await api.cards.list(); 
+            data = data.reverse();
             this.setState({loading: false, data: data});
 
         }catch(error){
