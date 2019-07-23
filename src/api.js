@@ -28,11 +28,11 @@ const api = {
       return callApi('/cards');
     },
     create(card) {
-      throw new Error('500: Server Error');
-      /*return callApi(`/cards`, {
+      // throw new Error('500: Server Error');
+      return callApi(`/cards`, {
         method: 'POST',
         body: JSON.stringify(card),
-      });*/
+      });
     },
     read(cardId) {
       return callApi(`/cards/${cardId}`);

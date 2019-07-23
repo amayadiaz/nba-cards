@@ -7,6 +7,8 @@ import Layout from './Layout';
 
 import NotFound from '../containers/NotFound';
 
+import CardEdit from '../containers/CardEdit';
+
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
 // Componente App que engloba toda la aplicación
@@ -22,6 +24,7 @@ function App() {
                 <Switch>
                     <Route exact path="/cards" component={Cards} />
                     <Route exact path="/cards/new" component={CardNew} />
+                    <Route exact path="/cards/:cardId/edit" component={CardEdit} />
                     <Route component={NotFound} />
                 </Switch>
             </Layout>

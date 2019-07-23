@@ -9,6 +9,7 @@ import api from '../api';
 import PageLoading from '../components/PageLoading';
 
 import PageError from '../components/PageError';
+import { clearInterval } from 'timers';
 
 class Cards extends React.Component{
 
@@ -23,6 +24,13 @@ class Cards extends React.Component{
     componentDidMount(){
 
         this.fetchData();
+
+        this.intervalId = setInterval(this.fetchData, 10000);
+
+    }
+
+    componentWillUnmount(){
+        clearInterval(this.intervalId);
     }
 
     fetchData = async () => {
@@ -44,7 +52,7 @@ class Cards extends React.Component{
     
     render(){
         
-        if(this.state.loading == true){
+        if(this.state.loading == true && !this.state.data){
             return <PageLoading />;
         }
 
@@ -55,9 +63,11 @@ class Cards extends React.Component{
         return(
             <React.Fragment>
                 <div className="text-center">
+                    <p>{this.state.loading && '......'}</p>
                     <Link to="/cards/new" className="btn btn-primary">New Player</Link>
                 </div>
                 <CardsList players={this.state.data} />
+                
             </React.Fragment>
         )
     }

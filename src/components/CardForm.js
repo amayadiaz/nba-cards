@@ -28,8 +28,6 @@ class CardForm extends React.Component{
     render(){
         return(
             <form onSubmit={this.props.onSubmit} className="Card_Form">
-                <h3>Add new Player</h3>
-                <hr></hr>
                 <div className="form-group">
                     <label>Avatar</label>
                     <input onChange={this.props.onChange} type="text" className="form-control" name="avatarUrl" placeholder="Enter url avatar" value={this.props.formValues.avatarUrl} />
