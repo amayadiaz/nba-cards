@@ -11,6 +11,8 @@ import CardEdit from '../containers/CardEdit';
 
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
+import CardDetailsContainer from '../containers/CardDetailsContainer';
+
 // Componente App que engloba toda la aplicación
 function App() {
     return(
@@ -24,6 +26,7 @@ function App() {
                 <Switch>
                     <Route exact path="/cards" component={Cards} />
                     <Route exact path="/cards/new" component={CardNew} />
+                    <Route exact path="/cards/:cardId" component={CardDetailsContainer} />
                     <Route exact path="/cards/:cardId/edit" component={CardEdit} />
                     <Route component={NotFound} />
                 </Switch>

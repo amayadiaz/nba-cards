@@ -9,7 +9,8 @@ import api from '../api';
 import PageLoading from '../components/PageLoading';
 
 import PageError from '../components/PageError';
-import { clearInterval } from 'timers';
+
+
 
 class Cards extends React.Component{
 

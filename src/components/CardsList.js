@@ -21,7 +21,7 @@ class CardsList extends React.Component{
                 {this.props.players.map(player =>{
                     return (
                         <div className="col-md-4" key={player.id}>
-                            <Link to={`/cards/${player.id}/edit`} className="text-reset text-decoration-none">
+                            <Link to={`/cards/${player.id}`} className="text-reset text-decoration-none">
                                 <Card playerName={player.playerName} avatar={player.avatarUrl} points={player.points} rebounds={player.rebounds} assists={player.assists} />
                             </Link>
                         </div>
