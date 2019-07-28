@@ -17,7 +17,9 @@ class CardDetailsContainer extends React.Component{
     state = {
         loading: true, 
         error: null,
-        data: undefined
+        data: undefined,
+        modalIsOpen: false,
+
     };
 
     componentDidMount(){
@@ -39,6 +41,25 @@ class CardDetailsContainer extends React.Component{
         }
     }
 
+    handleOpenModal = e => {
+        this.setState({ modalIsOpen: true});
+    }
+
+    handleCloseModal = e => {
+        this.setState({ modalIsOpen: false});
+    }
+
+    handleDeleteCard = async e =>{
+        this.setState({loading: true, error: null}); 
+        try {
+            await api.cards.remove(this.props.match.params.cardId);
+            this.setState({loading: false});
+            this.props.history.push('/cards');
+        } catch (error) {
+            this.setState({loading: false, error: error});
+        }
+    }
+
     render(){
 
         if (this.state.loading) {
@@ -50,7 +71,7 @@ class CardDetailsContainer extends React.Component{
         }
 
         return (
-            <CardDetails card={this.state.data} />
+            <CardDetails onCloseModal={this.handleCloseModal} onOpenModal={this.handleOpenModal} modalIsOpen={this.state.modalIsOpen} card={this.state.data} onDeleteCard={this.handleDeleteCard} />
         );
     }
 }

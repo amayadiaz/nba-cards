@@ -51,28 +51,12 @@
       "id": "uEoxSp4"
     },
     {
-      "avatarUrl": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201565.png",
-      "playerName": "Derrick Rose",
-      "points": "18.0",
-      "rebounds": "2.7",
-      "assists": "4.3",
-      "id": "2zaQ9KB"
-    },
-    {
       "avatarUrl": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/2200.png",
       "playerName": "Paul Gasol",
       "points": "3.9",
       "rebounds": "4.6",
       "assists": "1.7",
       "id": "LvdJ8lH"
-    },
-    {
-      "avatarUrl": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/1610612748/2018/260x190/201583.png",
-      "playerName": "Anderson Ryan",
-      "points": "12.4",
-      "rebounds": "5.3",
-      "assists": "0.9",
-      "id": "HNnfTFE"
     },
     {
       "avatarUrl": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201142.png",
@@ -83,12 +67,12 @@
       "id": "Y8YVZxP"
     },
     {
-      "avatarUrl": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/200765.png",
-      "playerName": "Rajon Rondo",
-      "points": "9.2",
-      "rebounds": "5.3",
-      "assists": "8.0",
-      "id": "w9oZeNQ"
+      "avatarUrl": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203507.png",
+      "playerName": "Giannis Antetokounmpo",
+      "points": "27.7",
+      "rebounds": "12.5",
+      "assists": "5.9",
+      "id": "sNSL9Me"
     }
   ]
 }

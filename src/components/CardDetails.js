@@ -3,6 +3,8 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import Card from './Card';
 
+import DeleteCardModal from './DeleteCardModal';
+
 function CardDetails(props){
 
     const card = props.card; 
@@ -16,10 +18,12 @@ function CardDetails(props){
                 <Link className="btn btn-primary" to={`/cards/${card.id}/edit`}>
                     Edit
                 </Link>
-                <button className="btn btn-danger">
+                <button onClick={props.onOpenModal} className="btn btn-danger">
                     Delete
                 </button>
+                <DeleteCardModal isOpen={props.modalIsOpen} onClose={props.onCloseModal} onDeleteCard={props.onDeleteCard} />
             </div>
+
         </div>
     );
 }
